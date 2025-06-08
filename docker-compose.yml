@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+  zipkin:
+    image: openzipkin/zipkin
+    ports:
+      - "9411:9411"
+  tracking-app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongo
+      - rabbitmq
+      - zipkin
