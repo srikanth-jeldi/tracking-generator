@@ -17,8 +17,7 @@ public class TrackingRecord {
     @Id
     private String id;
 
-    private String trackingNumber;  // <-- Make sure this field exists with this exact name
-
+    private String trackingNumber;  
     private String originCountryId;
     private String destinationCountryId;
     private Double weight;
