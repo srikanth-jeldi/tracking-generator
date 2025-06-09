@@ -1,4 +1,4 @@
-package com.example.tracking.exception;
+package com.trackingapp.tracking.exception;
 
 public class TrackingNumberGenerationException extends RuntimeException {
     public TrackingNumberGenerationException(String message) {

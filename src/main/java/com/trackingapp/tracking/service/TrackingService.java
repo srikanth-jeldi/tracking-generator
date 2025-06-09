@@ -1,11 +1,11 @@
-package com.example.tracking.service;
+package com.trackingapp.tracking.service;
 
-import com.example.tracking.dto.TrackingRequest;
-import com.example.tracking.dto.TrackingResponse;
-import com.example.tracking.exception.InvalidTrackingRequestException;
-import com.example.tracking.exception.TrackingNumberGenerationException;
-import com.example.tracking.model.TrackingRecord;
-import com.example.tracking.repository.TrackingRepository;
+import com.trackingapp.tracking.dto.TrackingRequest;
+import com.trackingapp.tracking.dto.TrackingResponse;
+import com.trackingapp.tracking.exception.InvalidTrackingRequestException;
+import com.trackingapp.tracking.exception.TrackingNumberGenerationException;
+import com.trackingapp.tracking.model.TrackingRecord;
+import com.trackingapp.tracking.repository.TrackingRepository;
 import io.micrometer.core.instrument.MeterRegistry;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

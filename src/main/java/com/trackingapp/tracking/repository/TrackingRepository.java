@@ -1,6 +1,6 @@
-package com.example.tracking.repository;
+package com.trackingapp.tracking.repository;
 
-import com.example.tracking.model.TrackingRecord;
+import com.trackingapp.tracking.model.TrackingRecord;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

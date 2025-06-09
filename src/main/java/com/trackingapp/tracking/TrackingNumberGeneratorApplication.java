@@ -1,4 +1,4 @@
-package com.example.tracking;
+package com.trackingapp.tracking;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

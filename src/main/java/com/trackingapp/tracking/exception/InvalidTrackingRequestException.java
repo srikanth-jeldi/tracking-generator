@@ -1,4 +1,4 @@
-package com.example.tracking.exception;
+package com.trackingapp.tracking.exception;
 
 public class InvalidTrackingRequestException extends RuntimeException {
     public InvalidTrackingRequestException(String message) {

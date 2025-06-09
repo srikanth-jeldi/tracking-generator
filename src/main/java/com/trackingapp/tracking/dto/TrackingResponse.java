@@ -1,4 +1,4 @@
-package com.example.tracking.dto;
+package com.trackingapp.tracking.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

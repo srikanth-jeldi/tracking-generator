@@ -1,8 +1,8 @@
-package com.example.tracking.controller;
+package com.trackingapp.tracking.controller;
 
-import com.example.tracking.dto.TrackingRequest;
-import com.example.tracking.dto.TrackingResponse;
-import com.example.tracking.service.TrackingService;
+import com.trackingapp.tracking.dto.TrackingRequest;
+import com.trackingapp.tracking.dto.TrackingResponse;
+import com.trackingapp.tracking.service.TrackingService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
